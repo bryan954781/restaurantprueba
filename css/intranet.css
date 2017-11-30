@@ -1,0 +1,46 @@
+*{
+	margin:0px;
+	padding:0px;
+	box-sizing:border-box;
+}
+
+
+
+body{
+background:url(../imagenes/fondo1.jpg);
+}
+
+.navcol{
+
+background:black;
+border:1px solid white;
+
+}
+
+.intbtncolor button{
+	background:white;
+	color:black;
+	
+}
+
+.intmar{
+	border:2px ;
+}
+.intmar img{
+height:200px;
+width:300px;
+margin:auto;	
+}
+.intmar .list-group a{
+	background:black;
+	border:1px solid white;
+	color:white;
+}
+
+.jumbotronb{
+	background:url(../imagenes/intraima1.jpg);
+}
+.jumbotronb a{
+	background:black;
+	border:1px solid white;
+}

@@ -1,0 +1,21 @@
+
+body{
+
+	background:url(../imagenes/fondo1.jpg);
+	font-style:italic;
+}
+
+.carousel-inner{	
+	height:300px;
+	width:100%;
+	
+}
+
+.carrousel-inner img{
+width:100%;
+}
+
+.fondito{
+	background:black;
+	color:#FFDF8C;
+}

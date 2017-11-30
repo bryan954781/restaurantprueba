@@ -1,0 +1,51 @@
+
+
+body{
+	background:url(../imagenes/fondo1.jpg);	
+	color:white;
+}
+
+
+
+.carousel-inner{	
+	height:100%;
+	width:100%;
+
+}
+
+footer{
+
+	background:black;
+	color:white;
+}
+
+.letra a {
+	color:black;
+}
+
+
+.letra img{
+	padding:10px;
+}
+.letra h3{
+	margin-left:30px;
+}
+
+
+.letra button {
+margin-left:65px;
+
+}
+
+.r{
+	
+	margin:auto;
+}
+
+
+
+.foot{
+
+	margin-top:30px;
+}
+

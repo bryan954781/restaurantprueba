@@ -1,0 +1,95 @@
+
+.carousel-inner img{
+	height:100%;
+	width:100%;
+}
+
+
+.separacion{
+  height:100px;
+	width:100%;
+	position:relative;
+}
+
+.separacion img{
+	height:100%;
+	width:100%;
+	padding-top:50px;
+}
+
+.herramientas{
+	position:relative;
+}
+
+
+.container{
+	position:relative;
+}
+
+
+.textservi h3{
+text-align:center;
+color:#2E4172;
+}
+
+.textservi1 h3{
+text-align:center;
+color:white;	
+background:#2A4E6E;
+}
+
+.todoservi{
+margin:default;
+padding-left:0px;
+height:100%;
+
+}
+
+
+.h{
+	margin:20px 20px 0px 0px;
+    height:100%;
+	width:100%;
+	position:relative;
+}
+.h img{
+
+}
+.herramientas .container .row .col-md-2 img{
+width:100%;
+height:100%;
+}
+
+
+.menu1derecha{
+
+	
+	position:relative;
+}
+
+.menu1derecha ul{
+    background:white;
+	float:right;
+	border:1px solid #D22311;
+}
+.menu1derecha ul li ul{
+ 
+	border:1px solid #D22311;
+    z-index: +3;
+}
+.menu1derecha ul a{
+   text-decoration:none;
+    color:black;
+	font-size:13px;
+	z-index:+3;
+
+}
+.menu1derecha ul li ul li a{
+
+    color:black;
+	
+}
+
+.menu1derecha ul li a:hover{
+color:white;
+}

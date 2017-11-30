@@ -1,0 +1,34 @@
+
+body{
+background:url(../imagenes/fondo.jpg);	
+}
+.fondito{
+	background:black;
+	color:white;
+}
+.carousel-inner{	
+	height:300px;
+	width:100%;
+	
+}
+
+.carrousel-inner img{
+width:100%;
+}
+
+
+.letritas a{
+
+	color:black;
+
+}
+
+.letritas a:hover{
+
+	text-decoration:none;
+	color:red;
+}
+
+.letritas ul {
+	color:white;
+}

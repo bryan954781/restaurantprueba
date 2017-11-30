@@ -1,0 +1,76 @@
+Nombre BASE DE DATOS : restaurant
+
+
+
+create  tabla login(
+id int not null,
+user varchar(50),
+password varchar(30),
+email varchar(30),
+pasadmin varchar(30),
+rol int not null
+);
+
+
+
+
+
+CREATE TABLE pedido(
+codigo int PRIMARY KEY AUTO_INCREMENT,
+Entrada varchar(20),
+Segundo varchar(20),
+Postre varchar(20),
+Bebida varchar(20),
+Precio int
+);
+
+CREATE TABLE crearplato(
+codigo int PRIMARY KEY AUTO_INCREMENT,
+tipo varchar(50),
+tipo2 varchar(50),
+tipo3 varchar(50),
+tipo4 varchar(50),
+PRECIO int
+);
+
+
+DELIMITER //
+CREATE PROCEDURE insertpedido(
+IN _entrada varchar(50),
+_segundo varchar(50),
+_postre varchar(50),
+_bebida varchar(50)
+)
+BEGIN
+insert into pedido(Entrada,Segundo,Postre,Bebida,Precio) values (_entrada,_segundo,_postre,_bebida,7);
+END
+//
+
+
+
+DELIMITER //
+CREATE PROCEDURE insertcrearplato(
+IN _tipo1 varchar(50),
+_tipo2 varchar(50),
+_tipo3 varchar(50),
+_tipo4 varchar(50),
+)
+BEGIN
+insert into crearplato(tipo,tipo2,tipo3,tipo4,PRECIO) values (_tipo1,_tipo2,_tipo3,_tipo4,10);
+END
+//
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
