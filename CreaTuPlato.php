@@ -8,7 +8,7 @@
 <link rel="stylesheet" type="text/css" href="css/creatuplato.css">
 <script src="js/bootstrap.min.js"></script>
 
-<title>Practica 3</title>
+<title>Practica 10</title>
 </head>
 <body>
 
