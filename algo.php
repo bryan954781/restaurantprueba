@@ -244,7 +244,7 @@ function borrar(obj) {
 
 <?php
 
-$caracteres = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+$caracteres = "ASSSSSS";
 $caracteres .= "1234567890";
 $final = array();
 $longitud = 4;
