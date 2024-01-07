@@ -79,7 +79,7 @@
 
 <!-- INICIO MARKETING DE WEB-->
 <div class="jumbotron jumbotronb">
-  <h1>Hola!</h1>
+  <h1>Welcome to my restaurant!!</h1>
   <p>También contamos con una página web</p>
   <p><a class="btn btn-primary btn-lg" href="Principal.php" role="button">Presiona aquí</a></p>
 </div>
